@@ -8,7 +8,7 @@ packages:
   gitUsername: aadi-tripathi
   gitBranch: release/2.0.0
 services:
-- serviceName: project.gittest.integrations:daf2
+- serviceName: project.gittest.integrations:daf_1
   packages:
   - name: GitTestProject
     version: 2.0.0
@@ -16,7 +16,3 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1028
-- serviceName: project.gittest.integrations:daf_1
-  packages:
-  - name: GitTestProject
-    version: 2.0.0
